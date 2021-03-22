@@ -1,0 +1,13 @@
+{
+  "launch": {
+
+    "configurations": [],
+    "compounds": []
+  },
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.snippetSuggestions": "none",
+  "json.schemas": [
+  
+  ],
+  
+}
