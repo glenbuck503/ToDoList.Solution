@@ -46,7 +46,10 @@ namespace ToDoList
     {
       app.UseDeveloperExceptionPage();
       app.UseAuthentication(); 
+       
       app.UseRouting();
+      app.UseAuthorization();
+   
 
       app.UseEndpoints(routes =>
       {
