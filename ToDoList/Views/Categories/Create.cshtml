@@ -1,11 +1,10 @@
-
 @{
   Layout = "_Layout";
 }
 
 @model ToDoList.Models.Category
 
-<h4>Add a new Category</h4>
+<h4>Add a new task</h4>
 @using (Html.BeginForm())
 {
   @Html.LabelFor(model => model.Name)

@@ -2,11 +2,11 @@ using System.Collections.Generic;
 
 namespace ToDoList.Models
 {
-    public class Item
-    {
+  public class Item
+  {
     public Item()
     {
-        this.JoinEntities = new HashSet<CategoryItem>();
+      this.JoinEntities = new HashSet<CategoryItem>();
     }
 
     public int ItemId { get; set; }
@@ -14,5 +14,5 @@ namespace ToDoList.Models
     public virtual ApplicationUser User { get; set; }
 
     public virtual ICollection<CategoryItem> JoinEntities { get;}
-    }
+  }
 }
